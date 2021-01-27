@@ -1,0 +1,38 @@
+ <nav class="navbar bg-light  navbar-light navbar-expand-lg">
+                        <div class="container">
+                            <a href="index.html" class="navbar-brand"><img src="klassy-logo.png" alt="Logo" title="Logo"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+            
+                            <div class="collapse navbar-collapse" id="navbarResponsive">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link">ABOUT</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link">MENU</a></li>
+                                    <li class="nav-item"><a href="" class="nav-link">CHEF'S</a></li>
+                                    <li class="scroll-to-section dropdown">
+                                        <a href="" class="nav-link dropdown-toggle"
+                                            data-toggle="dropdown" data-target="dropdown_target">FEATURES
+                                            <span class="caret"></span>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                                            <a href="" class="dropdown-item">features page1</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a href="" class="dropdown-item">features page2</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a href="" class="dropdown-item">features page3</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a href="" class="dropdown-item">features page4</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a href="" class="nav-link">CONTACT US</a></li>
+                                </ul>
+                            </div>
+                            
+                
+                          </div>
+                        </div>
+                      </nav>
+                   
+                      
