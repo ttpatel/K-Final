@@ -180,62 +180,85 @@
                             <h4>KlassyCafe</h4>
                             <h6>THE BEST EXPERIENCE</h6>
                             <div class="main-white-button scroll-to-section">
-                                <button type="button" class="btn btn-lg btn-light text-danger">Make A Reservation</button>
-                                
+                                <button type="button" class="btn btn-lg btn-light text-danger">Make A
+                                    Reservation</button>
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-8">
                     <div class="main-banner header-text">
-                        <div class="Modern-Slider slick-initialized slick-slider slick-dotted" role="toolbar"><button
+                        <!-- <div class="Modern-Slider slick-initialized slick-slider slick-dotted" role="toolbar"><button
                                 class="PrevArrow slick-arrow" style="display: block;"></button>
-                            <!-- Item -->
+                            
                             <div aria-live="polite" class="slick-list">
                                 <div class="slick-track" role="listbox"
                                     style="opacity: 1; width: 4495px; transform: translate3d(-2697px, 0px, 0px);">
-                                    <div class="item slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true"
+                                    <div class="item slick-slide slick-current  " data-slick-index="-1" aria-hidden="true"
                                         tabindex="-1" style="width: 899px;">
                                         <div class="img-fill">
-                                            <img src="" alt="">
+                                            <img src="images/slide-02.jpg" alt="">
                                         </div>
                                     </div>
-                                    <div class="item slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1"
+                                    <div class="item slick-slide slick-current " data-slick-index="0" aria-hidden="true" tabindex="-1"
                                         role="option" aria-describedby="slick-slide00" style="width: 899px;">
                                         <div class="img-fill">
-                                            <img src="" alt="">
+                                            <img src="/images/slide-03.jpg" alt="">
                                         </div>
                                     </div>
-                                    <div class="item slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1"
+                                    <div class="item slick-slide slick-current " data-slick-index="1" aria-hidden="true" tabindex="-1"
                                         role="option" aria-describedby="slick-slide01" style="width: 899px;">
                                         <div class="img-fill">
-                                            <img src="" alt="">
+                                            <img src="/images/tab-icon-01.png" alt="">
                                         </div>
                                     </div>
-                                    <div class="item slick-slide slick-current " data-slick-index="2"
+                                    <div class="item slick-slide  " data-slick-index="2"
                                         aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide02"
                                         style="width: 899px;">
                                         <div class="img-fill">
                                             <img src="/images/slide-01.jpg" alt="">
                                         </div>
                                     </div>
-                                    <div class="item slick-slide slick-cloned" data-slick-index="3" aria-hidden="true"
+                                    <div class="item slick-slide slick-current  " data-slick-index="3" aria-hidden="true"
                                         tabindex="-1" style="width: 899px;">
                                         <div class="img-fill">
-                                            <img src="/" alt="">
+                                            <img src="images/slide-01.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- // Item -->
-                            <!-- Item -->
-
-                            <!-- // Item -->
-                            <!-- Item -->
-
-                            <!-- // Item -->
+                            
                             <button class="NextArrow slick-arrow" style="display: block;">
                             </button>
+                        </div> -->
+                        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                            <!-- <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                                <li data-target="#carousel" data-slide-to="2"></li>
+                            </ol> -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-target="#carousel" data-slide-to="0">
+                                    <img src="/images/slide-01.jpg" alt="...">
+                                </div>
+                                <div class="carousel-item" data-target="#carousel" data-slide-to="1">
+                                    <img src="/images/slide-02.jpg"  alt="...">
+                                </div>
+                                <div class="carousel-item" data-target="#carousel" data-slide-to="2">
+                                    <img src="/images/slide-03.jpg"  alt="...">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel" role="button"
+                                data-bs-slide="prev"  data-target="#carousel" data-slide-to="1-2-3">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                data-bs-slide="next"  data-target="#carousel" data-slide-to="1-2-3">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden"></span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -928,12 +951,17 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
             integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            crossorigin="anonymous"></script> -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+            crossorigin="anonymous"></script> -->
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
